@@ -4,11 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>aaa</title>
+  <title>elephant</title>
+  <style>
+    *{margin:0;padding:0;}
+    .autoVideo{width: 100vw;}
+    .elephant{
+      position: absolute;
+      top:0px;
+      left: 0px;
+      width: 100vw;
+      height: 100vh;
+      background: url(./elephant.png);
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
 </head>
 <body>
-  <audio src="./2c930ef4913aae5a1fb2a362f42a439b.mp4">
+  <video class="autoVideo" controls="controls" autoplay src="./2c930ef4913aae5a1fb2a362f42a439b.mp4">
 
-  </audio>
+  </video>
+  <div class="elephant"></div>
 </body>
 </html>
